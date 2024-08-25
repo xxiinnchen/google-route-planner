@@ -4,10 +4,10 @@ const nextConfig = {
     images: {
       unoptimized: true,
     },
-    basePath: process.env.NODE_ENV === 'production' ? '/your-repo-name' : '',
+    basePath: process.env.NODE_ENV === 'production' ? '/google-route-planner' : '',
   }
   
   module.exports = nextConfig
+  
 
-  export default nextConfig;
   
